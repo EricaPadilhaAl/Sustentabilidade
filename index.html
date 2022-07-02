@@ -18,29 +18,63 @@
       <div id="login">
         <form method="post" action=""> 
           <h1 style="color:black;">Acesse sua conta 🐾</h1> 
-          <p> 
+
+           <style>
+              table, th, td {
+                border: 2px solid thistle;
+                border-collapse: collapse;
+                border-color: black;
+              }
+
+              th, td {
+                padding: 30px;
+       
+                }
+
+              td{
+                background-color:lightpink;
+                color:white
+
+              }
+
+              *{
+                font-family:arial;
+
+
+              }
+
+            </style>
+   
+            <br></br>
+  <table style="color:black" border="10" width="50%"  height="10%" align="center">
+    <tr>
+          <td>
             <label style="color: black" label for="email_login"> Digite seu Email</label>
             <input id="email_login" email="email_login" required="required" type="email" placeholder="ex. 123abc@gmail.com"/>
-          </p>
-           
-          <p> 
-            <label style="color: black" label for="password_login"> Digite Sua Senha</label>
+          </td>
+</tr>
+<tr>
+        <td>    <label style="color: black" label for="password_login"> Digite Sua Senha</label>
             <input id="password_login" password="password_login" required="required" type="password" placeholder="ex. senha" /> 
-          </p>
-           
-          <p> 
-            <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
+          </td>
+</tr>
+        <td>    <p> 
+            <label style="color: black" label for="password_login"> Digite seu CPF</label>
+            <input id="cpf_login" password="cpf_login" required="required" type="cpf" placeholder="ex. 123.456.789-10" />
+          </p> </td> </tr>
+
+</table>
+
+           <p> <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
             <label style="color:black " label for="manterlogado">Mantenha-me conectado</label>
           </p>
            
           <p> 
             <input type="submit" value="Logar" /> 
           </p>
-           
-          <p style="color:darkblue" sclass="link">
+ <p style="color:darkblue" sclass="link">
             Ainda não tem conta?
-            <a href="index3.html">Cadastre-se </a>
-          </p>
+            <a href="index3.html">Cadastre-se </a> </p> </td>
         </form>
       </div>
     </div>
